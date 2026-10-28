@@ -309,7 +309,7 @@
 <body>
     <div class="container">
         <div class="top-bar">
-            <button class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">☀️</button>
+            <button class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">🌤️</button>
         </div>
 
         <!-- Game header with title and instructions -->
@@ -573,7 +573,7 @@
             localStorage.setItem('memoryGameTheme', selectedTheme);
 
             if (elements.themeToggle) {
-                elements.themeToggle.textContent = selectedTheme === 'dark' ? '\u{1F31E}' : '';
+                elements.themeToggle.textContent = selectedTheme === 'dark' ? '🌙' : '🌤️';
                 elements.themeToggle.setAttribute(
                     'aria-label',
                     selectedTheme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode'
