@@ -573,7 +573,7 @@
             localStorage.setItem('memoryGameTheme', selectedTheme);
 
             if (elements.themeToggle) {
-                elements.themeToggle.textContent = selectedTheme === 'dark' ? '🌙' : '☀️';
+                elements.themeToggle.textContent = selectedTheme === 'dark' ? '\u{1F31E}' : '';
                 elements.themeToggle.setAttribute(
                     'aria-label',
                     selectedTheme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode'
